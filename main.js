@@ -3,7 +3,7 @@ function sii(){
     Swal.fire({
         title: "AMORRR",
         text: "sabia que me perdonarias te amo muchooooooo",
-        imageUrl: "/ft.png",
+        imageUrl: "ft.png",
         imageWidth: 300,
         imageHeight: 450,
         imageAlt: "Custom image"
