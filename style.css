@@ -1,0 +1,39 @@
+body{
+    
+    background-image:url('/fondo.png') ;
+    background-repeat: no-repeat;
+    background-size:450%;
+    height: 100%;
+    
+}
+.contenedor{
+    display: grid;
+   align-items: center;
+    justify-content: center;
+    margin-top: 70%;
+   
+}
+.boto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between ;
+}
+.btnn{
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #C51F1F;
+    
+}
+button:hover{
+   background-color: #c51f1f63;
+}
+
+@media (min-width: 500px) {
+    /* … */
+    body{
+        background-size: 100%;
+    }
+    .contenedor{
+        margin-top: 20%;
+    }
+  }
